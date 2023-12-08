@@ -1,0 +1,71 @@
+.pai{
+    height: 1000px;
+}
+
+.cabeçalho{
+    background-color: green;
+    color: white;
+    border-width: thick;
+    border-style: groove;
+    border-color: white;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+}
+
+.cabeçalho h1{
+    width: 100%;
+}
+
+.cabeçalho #pesquisar{
+    width: 45%;
+} 
+
+.menuH{
+    background-color: red;
+    color: white;
+    border-width: thick;
+    border-style: groove;
+    border-color: white;
+    height: 50px;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .menuH .center{
+    
+}
+
+.menuH .right{
+} */
+
+.sla{
+    display: flex;
+}
+
+.menuL, .conteudo, .pacotes{
+    border-width: thick;
+    border-style: groove;
+    border-color: white;
+}
+
+.menuL, .pacotes{
+    width: 20%;
+}
+
+.conteudo{
+    width: 60%;
+    height: 400px;
+}
+
+.rodape{
+    background-color: blue;
+    color: white;
+    border-width: thick;
+    border-style: groove;
+    border-color: white;
+    height: 100px;
+
+}
