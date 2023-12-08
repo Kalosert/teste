@@ -1,0 +1,69 @@
+.app{
+  margin: 0px;
+  padding: 0px;
+  height: 1024px;
+}
+
+@media screen and (max-width: 992px){
+  .Top{
+    display: none;
+  }
+  
+  .Menu{
+    background-color: greenyellow;
+    height: 10%;
+  }
+  
+  .Content1{
+    background-color: lightskyblue;
+  }
+  
+  .Content2{
+    background-color: #ff0055;
+  }
+  
+  .Footer{
+    background-color: purple;
+    height: 10%;
+  }
+
+  .Contents{
+    height: 80%;
+  }
+  
+  .Content{
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 993px){
+  .Top{
+    background-color: orange;
+    height: 30%;
+  }
+  
+  .Menu{
+    background-color: greenyellow;
+    height: 10%;
+  }
+  
+  .Content1{
+    background-color: lightskyblue;
+    width: 30%;
+  }
+  
+  .Content2{
+    background-color: green;
+    width: 70%;
+  }
+  
+  .Footer{
+    background-color: purple;
+    height: 10%;
+  }
+  
+  .Contents{
+    height: 50%;
+    display: flex;
+  }
+}
